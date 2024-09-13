@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<!-- Title of the page, making it scalable and styling it with the CSS sheet --> 
+<head>
+	<title>The Grocery List App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href = "grocery_style.css">
+</head>
+
+<!-- HTML --> 
+<body class="mobile-background">	
+	<!-- Header of the document --> 
+	<div class="title-container">
+		<h1>Let's create a grocery list!</h1>
+		<a id="portfolio-button" class="portfolio-link" target="_blank" href="portfolio.html"> Portfolio page</a>	</div>
+	<!-- Two tables where the dish and other grocery item options are displayed --> 
+	<h2>Here are the current options:</h2>
+	<!-- Open the tables when clicking on the drop down menu --> 
+	<div class="dropdown">
+		<button id="dropdownButton">Click to open the menu</button>
+		<div class="dropdown-content" id="dropdownMenu">
+			<table id="recipeTable"></table>
+			<table id="optionTable"></table>
+		</div>
+	</div>
+
+	<!-- Option to select a specific dish to see the recipe of --> 
+	<h2>Please select the dish you want to see the recipe of</h2>
+	<select id="selection7"></select>
+	<br><br>
+	<button id="submitDish" type="button">Click to preview the ingredients of this dish</button>		
+	<br><br>
+	<div id="previewNow"></div>
+	<!-- Fill in select elements with dishes for each day of the week --> 
+	<h2>Please select the dishes you want to eat this week</h2>
+	
+	<form>
+		<h3>Monday: </h3>
+		<select id="selection0"></select>
+		<input id="quantity0" type="number" placeholder="Number of people">
+		<h3>Tuesday: </h3>
+		<select id="selection1"></select>
+		<input id="quantity1" type="number" placeholder="Number of people">
+		<h3>Wednesday: </h3>
+		<select id="selection2"></select>
+		<input id="quantity2" type="number" placeholder="Number of people">
+		<h3>Thursday: </h3>
+		<select id="selection3"></select>
+		<input id="quantity3" type="number" placeholder="Number of people">
+		<h3>Friday: </h3>
+		<select id="selection4"></select>
+		<input id="quantity4" type="number" placeholder="Number of people">
+		<h3>Saturday: </h3>
+		<select id="selection5"></select>
+		<input id="quantity5" type="number" placeholder="Number of people">
+		<h3>Sunday: </h3>
+		<select id="selection6"></select>
+		<input id="quantity6" type="number" placeholder="Number of people">
+	</form>
+	<!-- Fill in other grocery items that the user may want outside of the dinner recipes --> 
+	<h2>Please select other items and their quantity to add them to your list</h2>
+
+	<select id="selection8"></select>
+	<input id="quantity8" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection9"></select>
+	<input id="quantity9" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection10"></select>
+	<input id="quantity10" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection11"></select>
+	<input id="quantity11" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection12"></select>
+	<input id="quantity12" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection13"></select>
+	<input id="quantity13" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection14"></select>
+	<input id="quantity14" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection15"></select>
+	<input id="quantity15" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection16"></select>
+	<input id="quantity16" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection17"></select>
+	<input id="quantity17" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection18"></select>
+	<input id="quantity18" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection19"></select>
+	<input id="quantity19" type="number" placeholder="Quantity">
+	<br><br>
+	<select id="selection20"></select>
+	<input id="quantity20" type="number" placeholder="Quantity">
+	<br><br>
+	<!-- Preview and download the sorted grocery list file --> 
+	<button id="submitPreview" type="button">Click to preview your grocery list</button>		
+	<br><br>
+	<div id="previewSection"></div>
+	<br><br>
+	<button type="button" id="downloadButton">Download grocery list</button>
+	<!-- A test elemement in case I want to test any specific thing in the code to display on the page --> 
+	<p id="test"></p>
+
+	<script src="grocery_scripts.js"></script>
+</body>
+</html>

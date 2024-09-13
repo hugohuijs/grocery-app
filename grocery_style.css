@@ -1,0 +1,182 @@
+/* For desktop screens */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #141a1f;
+  color: white;
+  /*background-image: url("images/cooking2.jpg");*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* For mobile screens */
+@media (max-width: 800) {
+  body{
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: white;
+    background-image: url("images/cooking3.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Set the text color for h1 elements */
+h1 {
+  color: white;
+}
+
+/* Set the text color for h2 elements */
+h2 {
+  color: white;
+}
+
+/* Style the button that opens the dropdown */
+.dropdown button {
+  margin-top: 15px;
+  background-color: #ff6f00;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  margin: 15px,15px,15px,15px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%; /* Set the width to 100% */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style the table within the dropdown content */
+.dropdown-content table {
+  width: 100%;
+  margin: 15px,15px,15px,15px;
+  border-collapse: collapse; /* Add border-collapse property */
+}
+
+/* Style the table rows and cells */
+.dropdown-content table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content table th,
+.dropdown-content table td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Highlight the table rows on hover */
+.dropdown-content table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style the table, table headers, and table cells */
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style the table headers */
+th {
+  background-color: #009688;
+  color: #fff;
+}
+
+td{
+  color: black;
+}
+
+
+/* Style the select dropdowns and number inputs */
+select,
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #00796b;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 
+#portfolio-button {
+  margin-left: 10px; 
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+  text-decoration: none; 
+  text-align: center;
+} 
+*/
+
+#portfolio-button{
+    opacity:0;
+}
+
+#portfolio-button:hover {
+  background-color: #009688;
+}
+
+/* Set the margin at the bottom for #previewNow element */
+#previewNow {
+  margin-bottom: 20px;
+}
+
+/* Style the #previewSection element */
+#previewSection {
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the #backgroundImage element */
+#backgroundImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}

@@ -1,0 +1,634 @@
+@media (max-width: 767px) {
+    .platform_image2{
+        display:none;
+    }
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background: #8f8e8f;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Montserrat', monospace;
+    color: black;
+}
+
+.page{
+    margin-bottom: 0px;
+}
+
+.top {
+    background-image: url("images/earth.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    max-height: 1000%; /* Ensure it covers at least the viewport height */
+    min-height: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 100px;
+}
+
+.logo{
+    grid-column: 1;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    padding: 20px;
+    color: #ffc230;
+}
+
+.contact_me{
+    grid-column: 2;
+    height: 50px;
+    width: 100px;
+    background-color: #ffc230;
+    color: black;
+    border-radius: 10%;
+    border: solid 1px;
+    position: absolute;
+    top: 20px; right: 20px; 
+    padding-right: 10px;
+}
+
+.contact_me:hover{
+    background-color: #59585c;
+    color: #ffc230;
+    transition: ease-in-out 0.5s;
+}
+
+.front_page {
+    padding-bottom: 20px;
+    display: grid;
+    width: 100%; /* Add this line to make the element full width */
+    grid-auto-rows: auto;
+    justify-items: center; /* Center content horizontally */
+    align-items: center;   /* Center content vertically */
+    height:fit-content;         /* Adjust the height as needed */
+}
+
+#title{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffc230;
+}
+
+.arrow {
+    animation: bounce 1s infinite;
+    padding-top:40px;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the bounce height as needed */
+    }
+}
+
+.grey{
+    background-color: #8f8e8f;
+    max-width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+
+#subtitle{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    color: #F9F2DD;
+    margin-bottom: 10px;
+}
+
+.desk{
+    background-image: url("images/desk.jpg");
+    background-size: 50% cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin-left:5%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+/*
+.hidden {
+    opacity: 0;                   
+    visibility: hidden;           
+    transition: opacity 10s ease, visibility 0s; 
+}
+
+.reveal-element {
+    opacity: 1; 
+    transition: opacity 1s ease; 
+}   
+.reveal
+*/
+
+.problems_solutions{
+    margin-top: 0px;
+    max-width: 100%;
+    padding-left: 5%;
+}
+
+.we_recognise{
+    font-weight: bold;
+    color: #F9F2DD;
+    margin-left: 10px;
+}
+
+.problem{
+    color: #F9F2DD;
+    margin-left: 15px;
+}
+
+.problem_title{
+    color: #ffc230;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#problem1, #problem2, #problem3{
+    color: #F9F2DD;
+    margin-left: 15px;
+}
+
+.hr{
+    border: 90% 2px solid white;
+}
+
+.platform{
+    font-weight: bold;
+    color: #F9F2DD;
+    margin-left: 10px;
+}
+
+.solution_title{
+    color: #ffc230;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#solution1, #solution2, #solution3{
+    color: #F9F2DD;
+    margin-left: 15px;
+}
+
+#ready{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 100;
+    color: #F9F2DD;
+    margin-bottom: 10px;
+}
+
+.contact_form{
+    background-image: url("images/earth.jpg");
+    background-size: 100% contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    color: #F9F2DD;
+    margin-top: 15px; /* Add space above the background image */
+    font-family: 'Montserrat', monospace;
+}
+
+#question{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffc230;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', monospace;
+}
+
+.contact_form{
+    display: grid;
+    grid-auto-rows: auto;
+    justify-items: left; /* Center content horizontally */
+    align-items: left;   /* Center content vertically */
+    padding-left: 5%;
+    margin: 0 auto; /* Center the form horizontally */
+    font-family: 'Montserrat', monospace;
+}
+
+.form{
+    padding-top: 5%;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'Montserrat', monospace;
+}
+
+.text_area {
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid white; /* Add a white bottom border */
+    width: 100%; /* Take up 100% of the available width */
+    background: transparent; /* Make the background transparent */
+    color: white; /* Text color */
+    padding-left: 5px; /* Add some padding for spacing */
+    outline: none; /* Remove the default focus outline */
+}
+
+.spacer {
+    margin-bottom: 20px; /* Add spacing between elements */
+}
+
+/* Style for labels */
+label {
+    color: white; /* Label text color */
+}
+
+/* Style for the Submit button */
+input[type="submit"] {
+    height: 50px;
+    width: 80%;
+    background-color: #ffc230;
+    color: black;
+    border: solid 1px;
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 50px 50px 50px 50px;
+    margin: 5% 10% 10% 10%;
+}
+
+input[type="submit"]:hover {
+    background-color: #59585c;
+    color: #ffc230;
+    transition: ease-in-out 0.5s;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Adjust the gap between columns */
+    padding: 20px; /* Add padding for spacing */
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #141a1f;
+}
+
+.logo2 {
+    height: 100px;
+    width: auto;
+    padding: 10px;
+    color: #ffc230;
+}
+
+.location{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.adres{
+        color: #F9F2DD;    
+        font-size: 80%;
+}
+
+.find_us {
+    color: #ffc230;
+    font-size: 80%;
+}
+
+.small_break {
+    border: 10% 2px solid #ffc230;
+    margin: 5px 0; /* Adjust the margin as needed */
+}
+
+
+@media (min-width: 1024px) {
+  /* Your CSS for desktop devices */
+
+    .top {
+        background-image: url("images/earth.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        max-height: 100%; /* Ensure it covers at least the viewport height */
+        min-height: 70%;
+        background-repeat: no-repeat;
+        margin-bottom: 10px;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 10%;
+    }
+
+    .logo{
+        grid-column: 1;
+        height: 140px;
+        width: auto;
+        position: absolute;
+        margin: 1%;
+        color: #ffc230;
+    }
+
+    .contact_me{
+        grid-column: 2;
+        height: 50px;
+        width: 100px;
+        background-color: #ffc230;
+        color: black;
+        border-radius: 10%;
+        border: solid 1px;
+        position: absolute;
+        margin:1%;
+    }
+
+    .front_page {
+        padding-bottom: 20px;
+        display: grid;
+        width: 100%; 
+        grid-auto-rows: auto;
+        justify-items: center; 
+        align-items: center;   
+        height:fit-content;        
+    }
+
+    #title{
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        max-width: 50%;
+        color: #ffc230;
+        font-size:350%;
+        font-weight:bold;
+    }
+
+    .arrow {
+        animation: bounce 1s infinite;
+        padding-top:50px;
+        height: 20px;
+        width: 20px;
+        justify-content: center;
+    }
+
+    .grey{
+        background-color: #8f8e8f;
+        max-width: 100%;
+        margin:2%;
+    }
+
+    #subtitle{
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        max-width: 65%;
+        font-weight:100;
+        font-size:130%;
+        color: #F9F2DD;
+        margin-bottom: 10px;
+    }
+
+    .desk{
+        background-color: #141a1f;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 80%;
+        grid-template-areas: 
+            "header header2"
+            "content content2"
+        ;
+        margin-left:5%;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+    }
+
+    .we_recognise{
+        grid-area: header;
+        padding: 1%; 
+        color: #F9F2DD;
+        font-size: larger;
+    }
+
+    .problems{
+        grid-area: content;
+        padding: 1%; 
+        color: #F9F2DD;
+    }
+
+    .problem_title{
+        margin: 1%; 
+        color: #ffc230;
+        font-size: larger;
+    }
+
+    #problem1, #problem2, #problem3{
+        margin: 1%; 
+        color: #F9F2DD;
+        font-size: larger;
+    }
+
+    .hr{
+        display: none;
+    }
+
+    .platform{
+        grid-area: header2;
+        padding:1%;
+        color: #F9F2DD;
+        font-size: larger;
+    }
+
+
+    .solutions{
+        grid-area: content2;
+        padding: 1%; 
+        color: #F9F2DD;
+    }
+
+    .solution_title{
+        color: #ffc230;
+        margin:1%;
+        font-size: larger;
+    }
+
+    #solution1, #solution2, #solution3{
+        flex: 3;
+        color: #F9F2DD;
+        margin:1%;    
+        font-size: larger;
+    }
+
+    #ready{
+        max-width: 500px;
+        margin: auto;
+        padding-top: 3%;
+        padding-right: 7%;
+        padding-left: 7%;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: 100;
+        color: #F9F2DD;
+        margin-bottom: 10px;
+    }
+
+    #question{
+        max-width: 500px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        color: #ffc230;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', monospace;
+    }
+
+    .contact_form{
+        background-image: url("images/earth.jpg");
+        background-size: 100% cover;
+        max-height: 80%;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 70% 30%;
+        grid-template-areas: 
+            "text image"
+            "submit image"
+        ;
+        justify-self: center;
+        color: #F9F2DD;
+        margin-bottom: 0px;
+        margin-top: 15px; /* Add space above the background image */
+        font-family: 'Montserrat', monospace;
+    }
+
+    .form{
+        grid-area: text;
+        width: 100%;
+        padding-top: 5%;
+        justify-content: space-between;
+        font-family: 'Montserrat', monospace;
+    }
+
+    .text_area {
+        border: none; /* Remove all borders */
+        border-bottom: 1px solid white; /* Add a white bottom border */
+        background: transparent; /* Make the background transparent */
+        color: white; /* Text color */
+        outline: none; /* Remove the default focus outline */
+    }
+
+    .platform_image2 {
+        grid-area: image;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .platform_image_class {
+        width: 100%; /* Adjust the width if needed */
+        height: auto; /* Maintain aspect ratio */
+        padding-left: 150px;
+    }
+
+    .spacer {
+        margin-bottom: 20px; /* Add spacing between elements */
+    }
+
+    /* Style for labels */
+    label {
+        color: white; /* Label text color */
+    }
+
+    /* Style for the Submit button */
+    input[type="submit"] {
+        height: 50px;
+        width: 80%;
+        grid-area: submit;
+        background-color: #ffc230;
+        color: black;
+        border: solid 1px;
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #59585c;
+        color: #ffc230;
+        transition: ease-in-out 0.5s;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+        gap: 20px; /* Adjust the gap between columns */
+        padding: 20px; /* Add padding for spacing */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #141a1f;
+    }
+
+    .header_logo2{
+        padding: 2%;
+        padding-left: 30%;
+    }
+    
+    .logo2 {
+        height: 150px;
+        width: auto;
+        color: #ffc230;
+    }
+
+    .location{
+        padding: 10px;
+        padding-right: 30%;
+    }
+
+    .adres{
+        color: #F9F2DD;    
+        font-size: 130%;
+    }
+
+    .find_us {
+        color: #ffc230;
+        font-size: 130%;
+    }
+
+    .small_break {
+        border: 10% 2px solid #ffc230;
+        margin: 5px 0; /* Adjust the margin as needed */
+    }
+
+}

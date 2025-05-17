@@ -46,6 +46,52 @@
 		</ingredients>
 	</RECIPE>
 	<RECIPE>
+		<dish>Chicken Quinoa Bowl</dish>
+		<ingredients>
+			<ingredient>
+				<type>Meat</type>
+				<name>Chicken</name>
+				<amount>100</amount>
+				<unit>grams</unit>
+			</ingredient>
+			<ingredient>
+				<type>Carbs</type>
+				<name>Quinoa</name>
+				<amount>100</amount>
+				<unit>grams</unit>
+			</ingredient>
+			<ingredient>
+				<type>Vegetable</type>
+				<name>Broccoli</name>
+				<amount>0.5</amount>
+				<unit>unit</unit>
+			</ingredient>
+		</ingredients>
+	</RECIPE>
+	<RECIPE>
+		<dish>Beef and Sweet Potato Skillet</dish>
+		<ingredients>
+			<ingredient>
+				<type>Meat</type>
+				<name>Beef</name>
+				<amount>100</amount>
+				<unit>grams</unit>
+			</ingredient>
+			<ingredient>
+				<type>Vegetable</type>
+				<name>Sweet potato</name>
+				<amount>200</amount>
+				<unit>grams</unit>
+			</ingredient>
+			<ingredient>
+				<type>Vegetable</type>
+				<name>Bell pepper</name>
+				<amount>1</amount>
+				<unit>cup</unit>
+			</ingredient>
+		</ingredients>
+	</RECIPE>
+	<RECIPE>
 		<dish>Pasta Beluga</dish>
 		<ingredients>
 			<ingredient>

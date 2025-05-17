@@ -20,24 +20,6 @@
 				<unit>unit</unit>
 			</ingredient>
 			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>1</amount>
-				<unit>teaspoon</unit>
-			</ingredient>
-			<ingredient>
-				<type>Seasoning</type>
-				<name>Salt</name>
-				<amount>1</amount>
-				<unit>teaspoon</unit>
-			</ingredient>
-			<ingredient>
-				<type>Seasoning</type>
-				<name>Pepper</name>
-				<amount>1</amount>\
-				<unit>teaspoon</unit>
-			</ingredient>
-			<ingredient>
 				<type>Fruit</type>
 				<name>Lemon wedge</name>
 				<amount>1</amount>
@@ -66,6 +48,12 @@
 				<amount>0.5</amount>
 				<unit>unit</unit>
 			</ingredient>
+			<ingredient>
+				<type>Sauce</type>
+				<name>Honey mustard</name>
+				<amount>0.1</amount>
+				<unit>unit</unit>
+			</ingredient>
 		</ingredients>
 	</RECIPE>
 	<RECIPE>
@@ -88,6 +76,12 @@
 				<name>Bell pepper</name>
 				<amount>1</amount>
 				<unit>cup</unit>
+			</ingredient>
+			<ingredient>
+				<type>Sauce</type>
+				<name>Chimchurry</name>
+				<amount>0.1</amount>
+				<unit>unit</unit>
 			</ingredient>
 		</ingredients>
 	</RECIPE>
@@ -278,18 +272,6 @@
 				<unit>tablespoon</unit>
 			</ingredient>
 			<ingredient>
-				<type>Seasoning</type>
-				<name>Garlic</name>
-				<amount>1</amount>
-				<unit>unit</unit>
-			</ingredient>
-			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>1</amount>
-				<unit>teaspoon</unit>
-			</ingredient>
-			<ingredient>
 				<type>Carb</type>
 				<name>Rice</name>
 				<amount>0.2</amount>
@@ -330,12 +312,6 @@
 				<amount>1</amount>
 				<unit>tablespoon</unit>
 			</ingredient>
-			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>1</amount>
-				<unit>teaspoon</unit>
-			</ingredient>
 		</ingredients>
 	</RECIPE>
 	<RECIPE>
@@ -358,18 +334,6 @@
 				<name>Tomatoes</name>
 				<amount>100</amount>
 				<unit>grams</unit>
-			</ingredient>
-			<ingredient>
-				<type>Seasoning</type>
-				<name>Garlic</name>
-				<amount>1</amount>
-				<unit>unit</unit>
-			</ingredient>
-			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>1</amount>
-				<unit>teaspoon</unit>
 			</ingredient>
 			<ingredient>
 				<type>Dairy</type>
@@ -405,12 +369,6 @@
 				<name>Shredded cheese</name>
 				<amount>0.25</amount>
 				<unit>package</unit>
-			</ingredient>
-			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>0.5</amount>
-				<unit>teaspoon</unit>
 			</ingredient>
 			<ingredient>
 				<type>Sauce</type>
@@ -454,12 +412,6 @@
 				<unit>package</unit>
 			</ingredient>
 			<ingredient>
-				<type>Oil</type>
-				<name>Olive oil</name>
-				<amount>0.5</amount>
-				<unit>teaspoon</unit>
-			</ingredient>
-			<ingredient>
 				<type>Sauce</type>
 				<name>Salsa</name>
 				<amount>0.25</amount>
@@ -492,12 +444,6 @@
 				<type>Vegetable</type>
 				<name>Onion</name>
 				<amount>0.25</amount>
-				<unit>unit</unit>
-			</ingredient>
-			<ingredient>
-				<type>Seasoning</type>
-				<name>Garlic</name>
-				<amount>1</amount>
 				<unit>unit</unit>
 			</ingredient>
 			<ingredient>
@@ -946,7 +892,7 @@
 			<ingredient>
 				<type>Vegetable</type>
 				<name>Cucumber</name>
-				<amount>1</amount>
+				<amount>0.5</amount>
 				<unit>unit</unit>
 			</ingredient>
 			<ingredient>
